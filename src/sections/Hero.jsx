@@ -22,7 +22,7 @@ const Hero = () => {
             <Suspense fallback={<Loader />}>
             <Float>
           <HeroImage
-            scale={isMobile && 0.23}
+            scale={isMobile && 1}
             position={isMobile && [0, -1.5, 0]}
           />
           </Float>

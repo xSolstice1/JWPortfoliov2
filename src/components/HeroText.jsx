@@ -14,6 +14,9 @@ const HeroText = () => {
       <div className="flex-col hidden md:flex c-space">
         <motion.h1
           className="text-4xl font-medium"
+          style={{
+            filter: "drop-shadow(2px 2px 2px black)",
+          }}
           variants={variants}
           initial="hidden"
           animate="visible"
@@ -24,6 +27,9 @@ const HeroText = () => {
         <div className="flex flex-col items-start">
           <motion.p
             className="text-5xl font-medium text-neutral-300"
+            style={{
+              filter: "drop-shadow(2px 2px 2px black)",
+            }}
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -34,6 +40,9 @@ const HeroText = () => {
           </motion.p>
           <motion.div
             variants={variants}
+            style={{
+              filter: "drop-shadow(2px 2px 2px black)",
+            }}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.5 }}
@@ -59,6 +68,9 @@ const HeroText = () => {
       <div className="flex- flex-col space-y-6 md:hidden">
         <motion.p
           className="text-4xl font-medium"
+          style={{
+            filter: "drop-shadow(2px 2px 2px black)",
+          }}
           variants={variants}
           initial="hidden"
           animate="visible"
@@ -69,6 +81,9 @@ const HeroText = () => {
         <div>
           <motion.p
             className="text-5xl font-black text-neutral-300"
+            style={{
+              filter: "drop-shadow(2px 2px 2px black)",
+            }}
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -85,11 +100,17 @@ const HeroText = () => {
             <FlipWords
               words={words}
               className="font-black text-white text-5xl"
+              style={{
+                filter: "drop-shadow(2px 2px 2px black)",
+              }}
               duration={500}
             />
           </motion.div>
           <motion.p
             className="text-4xl font-black text-neutral-300"
+            style={{
+              filter: "drop-shadow(2px 2px 2px black)",
+            }}
             variants={variants}
             initial="hidden"
             animate="visible"

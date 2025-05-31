@@ -56,7 +56,7 @@ const About = () => {
             />
             <Card
               style={{
-                rotate: "75deg",
+                rotate: "30deg",
                 bottom: "30%",
                 left: "70%",
                 width: "6rem",
@@ -68,7 +68,7 @@ const About = () => {
             />
             <Card
               style={{
-                rotate: "-75deg",
+                rotate: "-20deg",
                 top: "70%",
                 left: "20%",
                 width: "6rem",
