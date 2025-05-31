@@ -1,27 +1,104 @@
 import { FlipWords } from "./FlipWords";
+import { motion } from "motion/react";
 
 const HeroText = () => {
+  const words = ["Secure", "Optimized", "Modern"];
+  const variants = {
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0 },
+  };
+
   return (
     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
       {/* Desktop View */}
       <div className="flex-col hidden md:flex c-space">
-        <h1 className="text-4xl font-medium">Hello, I'm Jinwei</h1>
+        <motion.h1
+          className="text-4xl font-medium"
+          variants={variants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 1 }}
+        >
+          Hello, I'm Jinwei
+        </motion.h1>
         <div className="flex flex-col items-start">
-          <p className="text-5xl font-medium text-neutral-300">
-            A Data Engineer / Aspiring Software Engineer <br /> Dedicated to Crafting
-          </p>
-          <div>
+          <motion.p
+            className="text-5xl font-medium text-neutral-300"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.2 }}
+          >
+            A Data Engineer / Aspiring Software Engineer <br /> Dedicated to
+            Crafting
+          </motion.p>
+          <motion.div
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.5 }}
+          >
             <FlipWords
-              words={["Secure", "Optimized", "Modern"]}
+              words={words}
               className="font-black text-white text-8xl"
+              duration={500}
             />
-          </div>
-          <p className="text-4xl font-medium text-neutral-300">
+          </motion.div>
+          <motion.p
+            className="text-4xl font-medium text-neutral-300"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.8 }}
+          >
             Data-Driven Solutions
-          </p>
+          </motion.p>
         </div>
       </div>
       {/* Mobile View */}
+      <div className="flex- flex-col space-y-6 md:hidden">
+        <motion.p
+          className="text-4xl font-medium"
+          variants={variants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 1 }}
+        >
+          Hello, I'm Jinwei
+        </motion.p>
+        <div>
+          <motion.p
+            className="text-5xl font-black text-neutral-300"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.2 }}
+          >
+            Building
+          </motion.p>
+          <motion.div
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.5 }}
+          >
+            <FlipWords
+              words={words}
+              className="font-black text-white text-5xl"
+              duration={500}
+            />
+          </motion.div>
+          <motion.p
+            className="text-4xl font-black text-neutral-300"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.8 }}
+          >
+            Data-Driven Solutions
+          </motion.p>
+        </div>
+      </div>
       <div></div>
     </div>
   );
