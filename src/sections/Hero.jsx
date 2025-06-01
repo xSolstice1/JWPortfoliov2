@@ -16,7 +16,7 @@ const Hero = () => {
       <ParallexBG />
       <figure
         className="absolute inset-8"
-        style={{ width: "100vw", height: "100vh" }}
+        // style={{ width: "100vw", height: "100vh" }}
       >
         <Canvas camera={{ position: [0, 1, 3] }}>
             <Suspense fallback={<Loader />}>
@@ -27,7 +27,7 @@ const Hero = () => {
           />
           </Float>
           </Suspense>
-          <OrbitControls enableZoom={false} />
+          {/* <OrbitControls enableZoom={false} /> */}
           <Rig />
         </Canvas>
       </figure>

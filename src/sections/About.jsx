@@ -1,5 +1,8 @@
 import { useRef } from "react";
 import Card from "../components/Card";
+import { Globe } from "../components/Globe";
+import EmailButton from "../components/EmailButton";
+import { Frameworks } from "../components/Frameworks";
 
 const About = () => {
   const grid2Container = useRef();
@@ -29,7 +32,9 @@ const About = () => {
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-gray-500"></p>
+            <p className="flex items-end text-5xl text-gray-500">
+              Click n' Drag!
+            </p>
             <Card
               style={{
                 rotate: "75deg",
@@ -105,11 +110,35 @@ const About = () => {
           </div>
         </div>
         {/* Grid 3 */}
-        <div className="grid-black-color grid-3"></div>
+        <div className="grid-black-color grid-3">
+          <div className="z-10 w-[50%]">
+            <p className="headtext">Location</p>
+            <p>
+              I'm based in Singapore, open to Software Engineering
+              opportunities!
+            </p>
+          </div>
+          <figure className="absolute left-[30%] top-[10%]">
+            <Globe />
+          </figure>
+        </div>
         {/* Grid 4 */}
-        <div className="grid-special-color grid-4"></div>
+        <div className="grid-special-color grid-4">
+          <div className="flex flex-col items-center justify-center gap-4 size-full">
+            <p className="text-center headtext">Contact</p>
+            <EmailButton />
+          </div>
+        </div>
         {/* Grid 5 */}
-        <div className="grid-default-color grid-5"></div>
+        <div className="grid-default-color grid-5">
+          <div className="z-10 w-[50%]">
+            <p className="headtext">Tech Stack</p>
+            <p className="subtext">These are the technologies I have experience working with. I'm committed to continuously expanding my expertise and staying up to date with the latest tools in the industry!</p>
+          </div>
+          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+            <Frameworks />
+          </div>
+        </div>
       </div>
     </section>
   );
