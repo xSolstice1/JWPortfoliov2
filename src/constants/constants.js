@@ -32,7 +32,7 @@ export const myProjects = [
   },
 ];
 
-export const experiences = [
+export const workExperiences = [
   {
     title: "Web Developer",
     job: "Company Website Project",
@@ -106,6 +106,114 @@ export const experiences = [
   },
 ];
 
+export const educationExperiences = [
+  {
+    title: "Diploma",
+    job: "Interactive & Digital Media",
+    company: "Republic Polytechnic",
+    date: "2016-2019",
+    contents: [
+      "2D Game Design & Development Module Prize Recipient",
+      "Multimedia Programming Module Prize Recipient",
+    ],
+    tags: [
+      {
+        id: 1,
+        name: "HTML",
+        path: "./assets/logos/html.svg",
+      },
+      {
+        id: 2,
+        name: "Javascript",
+        path: "./assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "CSS",
+        path: "./assets/logos/css3.svg",
+      },
+      {
+        id: 4,
+        name: "Python",
+        path: "./assets/logos/python.svg",
+      },
+      {
+        id: 5,
+        name: "CSharp",
+        path: "./assets/logos/csharp.svg",
+      },
+      {
+        id: 6,
+        name: "SQL",
+        path: "./assets/logos/sql.svg",
+      },
+    ],
+  },
+  {
+    title: "Bachelor's Degree",
+    job: "Computer Science & Business Information Systems",
+    company: "Murdoch University",
+    date: "2023-2024",
+    contents: [
+      "Overall GPA of 3.28/4",
+      "Achieved High Distinctions in:",
+      "- Databases",
+      "- Information Systems Management",
+      "- IT Professional Practice Project",
+      "- Advanced Machine Learning and Artificial Intelligence",
+      "- Business Intelligence Application Development",
+      "- Principles of Computer Science",
+      "",
+      "Earned Distinctions in:",
+      "- Introduction to ICT Research Methods",
+      "- Systems Analysis and Design",
+      "- Data Structures and Abstractions",
+      "- Enterprise Architectures",
+      "- Advanced Business Analysis and Design",
+      "- Operating Systems and Systems Programming",
+      "- Information Technology Project Management",
+      "",
+    ],
+    tags: [
+      {
+        id: 1,
+        name: "CSharp",
+        path: "./assets/logos/csharp.svg",
+      },
+      {
+        id: 2,
+        name: "SQL",
+        path: "./assets/logos/sql.svg",
+      },
+      {
+        id: 3,
+        name: "Azure Web Services",
+        path: "./assets/logos/azure.svg",
+      },
+      {
+        id: 4,
+        name: "Tableau",
+        path: "./assets/logos/tableau.svg",
+      },
+      {
+        id: 5,
+        name: "Python",
+        path: "./assets/logos/python.svg",
+      },
+      {
+        id: 6,
+        name: "Java",
+        path: "./assets/logos/java.svg",
+      },
+      {
+        id: 7,
+        name: "C++",
+        path: "./assets/logos/cplusplus.svg",
+      },
+    ],
+  },
+];
+
 export const mySocials = [
   {
     name: "WhatsApp",
@@ -116,5 +224,10 @@ export const mySocials = [
     name: "Linkedin",
     href: "https://www.linkedin.com/in/angjw/",
     icon: "./assets/socials/linkedIn.svg",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/xSolstice1",
+    icon: "./assets/socials/github.svg",
   },
 ];

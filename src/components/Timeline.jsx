@@ -2,7 +2,7 @@
 import { useScroll, useTransform, motion } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
 
-export const Timeline = ({ data }) => {
+export const Timeline = ({ data, title }) => {
   const ref = useRef(null);
   const containerRef = useRef(null);
   const [height, setHeight] = useState(0);
@@ -23,13 +23,13 @@ export const Timeline = ({ data }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div className="c-space section-spacing" ref={containerRef}>
-      <h2 className="text-heading">Work Experience</h2>
+    <div className="c-space section-spacing overflow-hidden" ref={containerRef}>
+      <h2 className="text-heading">{title}</h2>
       <div ref={ref} className="relative pb-20">
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start pt-10 md:pt-40 md:gap-10"
+            className="flex justify-start pt-10 md:pt-20 md:gap-10"
           >
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute -left-[15px] w-10 rounded-full bg-midnight flex items-center justify-center">
