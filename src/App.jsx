@@ -4,6 +4,7 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
+import Contact from "./sections/Contact";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <About />
       <Projects />
       <Experience />
-      <section className="min-h-screen" />
+      <Contact />
     </div>
   );
 };
