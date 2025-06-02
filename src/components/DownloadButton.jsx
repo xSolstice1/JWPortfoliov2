@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 const DownloadButton = () => {
   return (
     <motion.a
-      href="./documents/resume.pdf"
+      href="./documents/Resume.pdf"
       download="Jinwei_Resume.pdf"
       whileHover={{ y: -5 }}
       whileTap={{ scale: 1.1 }}
