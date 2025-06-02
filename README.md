@@ -1,12 +1,33 @@
-# React + Vite
+# Jinwei's Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the source code for my personal portfolio website. It showcases my professional background, skills, projects, and contact information in a clean, modern, and user-friendly design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Home Section:** Introduction with a brief overview of who I am and what I do.
+- **About Me:** Detailed background including my experience as a Data Engineer.
+- **Tech Stack:** List of technologies and tools I work with.
+- **Projects:** Highlights of personal and professional projects with descriptions.
+- **Work Experience:** Summary of my roles and key contributions.
+- **Contact Section:** Easy way to reach me via email.
+- **Location:** Information about where I am based and my openness to new opportunities.
+- **Interactive Elements:** Smooth navigation with clickable links and drag-and-drop functionality.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- (Optionally mention any frameworks or libraries if used, e.g., React, Bootstrap, etc.)
+
+---
+
+## Installation & Usage
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/yourusername/your-portfolio-website.git
