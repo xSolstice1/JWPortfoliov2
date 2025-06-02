@@ -30,6 +30,42 @@ export const myProjects = [
       },
     ],
   },
+   {
+    id: 2,
+    title: "Portfolio Site",
+    description:
+      "You're on this project now! Built to showcase my personal experiences, alongside with my side projects!",
+    subDescription: [
+      "Built with React",
+      "Features animations using Motion",
+      "More to come as I update stuffs :)",
+    ],
+    href: "https://github.com/xSolstice1/JWPortfoliov2",
+    logo: "",
+    img: "./assets/projects/portfolio.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "./assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "HTML",
+        path: "./assets/logos/html.svg",
+      },
+      {
+        id: 3,
+        name: "Javascript",
+        path: "./assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "./assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
 ];
 
 export const workExperiences = [
