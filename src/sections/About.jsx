@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import { Globe } from "../components/Globe";
 import EmailButton from "../components/EmailButton";
 import { Frameworks } from "../components/Frameworks";
+import DownloadButton from "../components/DownloadButton";
 
 const About = () => {
   const grid2Container = useRef();
@@ -125,8 +126,9 @@ const About = () => {
         {/* Grid 4 */}
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
-            <p className="text-center headtext">Contact</p>
+            <p className="text-center headtext">Contact & Resume</p>
             <EmailButton />
+            <DownloadButton />
           </div>
         </div>
         {/* Grid 5 */}
@@ -136,7 +138,7 @@ const About = () => {
             <p className="subtext">
               These are the technologies I have experience working with. I'm
               committed to continuously expanding my expertise and staying up to
-              date with the latest tools in the industry!
+              date!
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
