@@ -34,7 +34,7 @@ export const myProjects = [
 
 export const experiences = [
   {
-    title: "Software Developer",
+    title: "Web Developer",
     job: "Security & Defense Projects",
     date: "2021-2023",
     contents: [

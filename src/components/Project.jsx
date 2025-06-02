@@ -11,7 +11,7 @@ const Project = ({ title, description, subDescription, href, img, tags, setPrevi
         <p className="text-2xl">{title}</p>
         <div className="flex gap-5 mt-2 text-sand">
           {tags.map((tag) => (
-            <span key="tag.id">{tag.name}</span>
+            <span key={tag.id}>{tag.name}</span>
           ))}
         </div>
         <button
