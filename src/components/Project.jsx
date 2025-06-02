@@ -1,13 +1,24 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ProjectDetails from "./ProjectDetails";
 
 const Project = ({ title, description, subDescription, href, img, tags, setPreview }) => {
-  const [ isHidden, setIsHidden ] = useState(false);
+  const [isHidden, setIsHidden] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 640);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   return (
     <>
-      <div className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
-      onMouseEnter={() => setPreview(img)}
-      onMouseLeave={() => setPreview(null)}>
+      <div
+        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
+        onMouseEnter={() => !isMobile && setPreview(img)}
+        onMouseLeave={() => !isMobile && setPreview(null)}
+      >
         <p className="text-2xl">{title}</p>
         <div className="flex gap-5 mt-2 text-sand">
           {tags.map((tag) => (
@@ -23,15 +34,17 @@ const Project = ({ title, description, subDescription, href, img, tags, setPrevi
         </button>
       </div>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
-      {isHidden && (<ProjectDetails
-        title={title}
-        description={description}
-        subDescription={subDescription}
-        img={img}
-        tags={tags}
-        href={href}
-        closeModal={() => setIsHidden(false)}
-      />)}
+      {isHidden && (
+        <ProjectDetails
+          title={title}
+          description={description}
+          subDescription={subDescription}
+          img={img}
+          tags={tags}
+          href={href}
+          closeModal={() => setIsHidden(false)}
+        />
+      )}
     </>
   );
 };
