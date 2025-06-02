@@ -5,7 +5,7 @@ import { useFrame } from "@react-three/fiber";
 
 export function HeroImage(props) {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("/models/lost_programmer.glb");
+  const { nodes, materials, animations } = useGLTF("./models/lost_programmer.glb");
   const { actions } = useAnimations(animations, group);
 
   // Smooth falling animation
@@ -68,4 +68,4 @@ export function HeroImage(props) {
   );
 }
 
-useGLTF.preload("/models/lost_programmer.glb");
+useGLTF.preload("./models/lost_programmer.glb");

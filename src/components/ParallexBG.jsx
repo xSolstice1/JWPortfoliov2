@@ -15,7 +15,7 @@ const ParallexBG = () => {
         <motion.div
           className="aboslute inset-0 w-full h-screen -z 50"
           style={{
-            backgroundImage: "url(/assets/nebulaskypink.png)",
+            backgroundImage: "url(./assets/nebulaskypink.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
@@ -24,7 +24,7 @@ const ParallexBG = () => {
         <motion.div
           className="absolute inset-0 -z 40"
           style={{
-            backgroundImage: "url(/assets/stars3.png)",
+            backgroundImage: "url(./assets/stars3.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: stars3Y,
@@ -34,7 +34,7 @@ const ParallexBG = () => {
         <motion.div
           className="absolute inset-0 -z 30"
           style={{
-            backgroundImage: "url(/assets/stars1.png)",
+            backgroundImage: "url(./assets/stars1.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             x: starsX,
@@ -44,7 +44,7 @@ const ParallexBG = () => {
         <motion.div
           className="absolute inset-0 -z 20"
           style={{
-            backgroundImage: "url(/assets/stars2.png)",
+            backgroundImage: "url(./assets/stars2.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: stars2Y,
@@ -54,7 +54,7 @@ const ParallexBG = () => {
         <motion.div
           className="absolute inset-0 -z 10"
           style={{
-            backgroundImage: "url(/assets/mountain-1.png)",
+            backgroundImage: "url(./assets/mountain-1.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain1Y,

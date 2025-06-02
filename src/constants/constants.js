@@ -11,22 +11,22 @@ export const myProjects = [
     ],
     href: "https://github.com/xSolstice1/ICT302_Project",
     logo: "",
-    img: "/assets/projects/curriculum.jpg",
+    img: "./assets/projects/curriculum.jpg",
     tags: [
       {
         id: 1,
         name: "C#",
-        path: "/assets/logos/csharp.svg",
+        path: "./assets/logos/csharp.svg",
       },
       {
         id: 2,
         name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        path: "./assets/logos/dotnet.svg",
       },
       {
         id: 3,
         name: "SQL",
-        path: "/assets/logos/sql.svg",
+        path: "./assets/logos/sql.svg",
       },
     ],
   },
@@ -47,17 +47,17 @@ export const experiences = [
       {
         id: 1,
         name: "HTML",
-        path: "/assets/logos/html.svg",
+        path: "./assets/logos/html.svg",
       },
       {
         id: 2,
         name: "Javascript",
-        path: "/assets/logos/javascript.svg",
+        path: "./assets/logos/javascript.svg",
       },
       {
         id: 3,
         name: "CSS",
-        path: "/assets/logos/css3.svg",
+        path: "./assets/logos/css3.svg",
       },
     ],
   },
@@ -80,27 +80,27 @@ export const experiences = [
       {
         id: 1,
         name: "Snowflake",
-        path: "/assets/logos/snowflake.svg",
+        path: "./assets/logos/snowflake.svg",
       },
       {
         id: 2,
         name: "SQL",
-        path: "/assets/logos/sql.svg",
+        path: "./assets/logos/sql.svg",
       },
       {
         id: 3,
         name: "Amazon Web Services",
-        path: "/assets/logos/aws.svg",
+        path: "./assets/logos/aws.svg",
       },
       {
         id: 4,
         name: "Tableau",
-        path: "/assets/logos/tableau.svg",
+        path: "./assets/logos/tableau.svg",
       },
       {
         id: 5,
         name: "Python",
-        path: "/assets/logos/python.svg",
+        path: "./assets/logos/python.svg",
       },
     ],
   },
@@ -110,11 +110,11 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "http://wa.me/6590706929",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: "./assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/angjw/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: "./assets/socials/linkedIn.svg",
   },
 ];

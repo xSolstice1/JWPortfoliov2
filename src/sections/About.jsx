@@ -44,7 +44,7 @@ const About = () => {
                 height: "6rem",
                 objectFit: "contain",
               }}
-              image="assets/logos/sql.png"
+              image="./assets/logos/sql.png"
               containerRef={grid2Container}
             />
             <Card
@@ -56,7 +56,7 @@ const About = () => {
                 height: "6rem",
                 objectFit: "contain",
               }}
-              image="assets/logos/snowflake.png"
+              image="./assets/logos/snowflake.png"
               containerRef={grid2Container}
             />
             <Card
@@ -68,7 +68,7 @@ const About = () => {
                 height: "6rem",
                 objectFit: "contain",
               }}
-              image="assets/logos/react.svg"
+              image="./assets/logos/react.svg"
               containerRef={grid2Container}
             />
             <Card
@@ -80,7 +80,7 @@ const About = () => {
                 height: "6rem",
                 objectFit: "contain",
               }}
-              image="assets/logos/visualstudiocode.svg"
+              image="./assets/logos/visualstudiocode.svg"
               containerRef={grid2Container}
             />
             <Card
@@ -92,7 +92,7 @@ const About = () => {
                 height: "6rem",
                 objectFit: "contain",
               }}
-              image="assets/logos/javascript.svg"
+              image="./assets/logos/javascript.svg"
               containerRef={grid2Container}
             />
             <Card
@@ -104,7 +104,7 @@ const About = () => {
                 height: "6rem",
                 objectFit: "contain",
               }}
-              image="assets/logos/python.png"
+              image="./assets/logos/python.png"
               containerRef={grid2Container}
             />
           </div>
