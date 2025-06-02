@@ -16,7 +16,8 @@ const Projects = () => {
   return (
     <section
       onMouseMove={mouseHandler}
-      className="relative c-space section-spacing"
+      id="projects"
+      className="relative c-space section-spacing scroll-mt-16"
     >
       <h2 className="text-heading">Projects</h2>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full">

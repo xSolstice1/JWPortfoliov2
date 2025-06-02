@@ -1,25 +1,30 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-function Navigation() {
+function Navigation({ onLinkClick }) {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a className="nav-link" href="#home">
+        <a className="nav-link" href="#home" onClick={onLinkClick}>
           Home
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#about">
+        <a className="nav-link" href="#about" onClick={onLinkClick}>
           About
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
-          Work
+        <a className="nav-link" href="#projects" onClick={onLinkClick}>
+          Projects
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#contact">
+        <a className="nav-link" href="#experiences" onClick={onLinkClick}>
+          Experiences
+        </a>
+      </li>
+      <li className="nav-li">
+        <a className="nav-link" href="#contact" onClick={onLinkClick}>
           Contact
         </a>
       </li>
@@ -29,6 +34,9 @@ function Navigation() {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
       <div className="mx-auto c-space max-w-7xl">
@@ -54,13 +62,13 @@ const Navbar = () => {
       {isOpen && (
         <motion.div
           className="block overflow-hidden text-center sm:hidden"
-          initial={{ opacity: 0, x: -10 }}
-          animate={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
           style={{ maxHeight: "100vh" }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.3 }}
         >
           <nav className="pb-5">
-            <Navigation />
+            <Navigation onLinkClick={handleLinkClick} />
           </nav>
         </motion.div>
       )}
