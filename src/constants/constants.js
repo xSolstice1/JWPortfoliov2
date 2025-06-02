@@ -35,35 +35,73 @@ export const myProjects = [
 export const experiences = [
   {
     title: "Web Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    job: "Company Website Project",
+    company: "AiSP",
+    date: "2018-2019",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Developed a new website from the ground up, ensuring robust functionality and a seamless user experience.",
+      "Continuously updated and enhanced the website to meet stakeholder specifications and evolving requirements.",
+      "Mentored and trained incoming interns, fostering their development and integration into the team.",
+    ],
+    tags: [
+      {
+        id: 1,
+        name: "HTML",
+        path: "/assets/logos/html.svg",
+      },
+      {
+        id: 2,
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+      },
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Data Engineer",
+    job: "Data Analytics @ Investment Firm",
+    company: "Luxoft",
+    date: "2024-Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Designed and implemented robust data layers for diverse business applications, ensuring efficient data integration and accessibility for analytical processes.",
+      "Automated data extraction and transformation processes, streamlining operations and reducing manual data handling by 30%.",
+      "Provided technical support and troubleshooting for data-related issues, ensuring timely resolution with minimal business disruption.",
+      "Monitored and fine-tuned database performance, applying best practices to maintain data services' high availability and reliability.",
+      "Developed and maintained interactive dashboards using Tableau to visualize key performance indicators, supporting data-driven decision making across multiple departments.",
+      "Collaborated with cross-functional teams to gather requirements, translate business needs into technical specifications, and deliver tailored data solutions for various stakeholders.",
+      "Optimized data processing workflows, improving data accuracy and reducing data retrieval times by 20%, leading to enhanced reporting efficiency.",
+      "Conducted comprehensive data quality assessments and implemented validation procedures to ensure the integrity and reliability of data used in analytics and reporting.",
     ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+    tags: [
+      {
+        id: 1,
+        name: "Snowflake",
+        path: "/assets/logos/snowflake.svg",
+      },
+      {
+        id: 2,
+        name: "SQL",
+        path: "/assets/logos/sql.svg",
+      },
+      {
+        id: 3,
+        name: "Amazon Web Services",
+        path: "/assets/logos/aws.svg",
+      },
+      {
+        id: 4,
+        name: "Tableau",
+        path: "/assets/logos/tableau.svg",
+      },
+      {
+        id: 5,
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
     ],
   },
 ];
