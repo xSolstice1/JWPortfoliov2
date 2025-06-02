@@ -105,3 +105,16 @@ export const experiences = [
     ],
   },
 ];
+
+export const mySocials = [
+  {
+    name: "WhatsApp",
+    href: "http://wa.me/6590706929",
+    icon: "/assets/socials/whatsApp.svg",
+  },
+  {
+    name: "Linkedin",
+    href: "https://www.linkedin.com/in/angjw/",
+    icon: "/assets/socials/linkedIn.svg",
+  },
+];
