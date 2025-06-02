@@ -21,8 +21,10 @@ This is the source code for my personal portfolio website. It showcases my profe
 
 - HTML5  
 - CSS3  
-- JavaScript  
-- (Optionally mention any frameworks or libraries if used, e.g., React, Bootstrap, etc.)
+- JavaScript (ReactJS)
+- Motion
+- Vite
+- TailwindCSS
 
 ---
 
