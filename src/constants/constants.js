@@ -70,9 +70,8 @@ export const myProjects = [
     id: 3,
     title: "Leetcode Diary",
     description:
-      "You're on this project now! Built to showcase my personal experiences, alongside with my side projects!",
+       "A personal LeetCode problem tracker and diary built with React and Chakra UI.",
     subDescription: [
-      "A personal LeetCode problem tracker and diary built with React and Chakra UI.",
       "Track your problem-solving progress, organize problems by tags and difficulty, and keep notes and solutions handy ",
       "— all in one place.",
     ],
