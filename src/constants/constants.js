@@ -30,7 +30,7 @@ export const myProjects = [
       },
     ],
   },
-   {
+  {
     id: 2,
     title: "Portfolio Site",
     description:
@@ -72,9 +72,9 @@ export const myProjects = [
     description:
       "You're on this project now! Built to showcase my personal experiences, alongside with my side projects!",
     subDescription: [
-      "Built with React",
-      "Features animations using Motion",
-      "More to come as I update stuffs :)",
+      "A personal LeetCode problem tracker and diary built with React and Chakra UI.",
+      "Track your problem-solving progress, organize problems by tags and difficulty, and keep notes and solutions handy ",
+      "— all in one place.",
     ],
     href: "https://github.com/xSolstice1/lc-diary",
     logo: "",
