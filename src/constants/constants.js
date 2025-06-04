@@ -66,6 +66,47 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 3,
+    title: "Leetcode Diary",
+    description:
+      "You're on this project now! Built to showcase my personal experiences, alongside with my side projects!",
+    subDescription: [
+      "Built with React",
+      "Features animations using Motion",
+      "More to come as I update stuffs :)",
+    ],
+    href: "https://github.com/xSolstice1/JWPortfoliov2",
+    logo: "",
+    img: "./assets/projects/lcdiary.png",
+    tags: [
+      {
+        id: 1,
+        name: "Golang",
+        path: "./assets/logos/go.svg",
+      },
+      {
+        id: 2,
+        name: "HTML",
+        path: "./assets/logos/html.svg",
+      },
+      {
+        id: 3,
+        name: "Typescript",
+        path: "./assets/logos/ts.svg",
+      },
+      {
+        id: 4,
+        name: "ChakraUI",
+        path: "./assets/logos/chakra.svg",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "./assets/logos/mongodb.svg",
+      },
+    ],
+  },
 ];
 
 export const workExperiences = [
