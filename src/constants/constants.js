@@ -105,6 +105,11 @@ export const myProjects = [
         name: "MongoDB",
         path: "./assets/logos/mongodb.svg",
       },
+      {
+        id: 6,
+        name: "React",
+        path: "./assets/logos/react.svg",
+      },
     ],
   },
 ];
