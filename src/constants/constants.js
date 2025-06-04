@@ -76,7 +76,7 @@ export const myProjects = [
       "Features animations using Motion",
       "More to come as I update stuffs :)",
     ],
-    href: "https://github.com/xSolstice1/JWPortfoliov2",
+    href: "https://github.com/xSolstice1/lc-diary",
     logo: "",
     img: "./assets/projects/lcdiary.png",
     tags: [
