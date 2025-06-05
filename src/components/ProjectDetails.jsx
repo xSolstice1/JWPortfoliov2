@@ -7,6 +7,7 @@ const ProjectDetails = ({
   img,
   tags,
   href,
+  livedemo,
   closeModal,
 }) => {
   return (
@@ -46,6 +47,17 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
+            {livedemo && livedemo.trim() !== "" && (
+              <a
+                className="inline-flex items-center gap-1 font-medium hover-animation cursor-pointer"
+                target="_blank"
+                href={livedemo}
+                rel="noopener noreferrer"
+              >
+                Live Demo
+                <img src="./assets/arrow-up.svg" className="size-4" />
+              </a>
+            )}
             <a
               className="inline-flex items-center gap-1 font-medium hover-animation cursor-pointer"
               target="_blank"

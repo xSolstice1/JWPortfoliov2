@@ -10,6 +10,7 @@ export const myProjects = [
       "Key features includes data manipulations such as filtering, grouping and different joins.",
     ],
     href: "https://github.com/xSolstice1/ICT302_Project",
+    livedemo: "",
     logo: "",
     img: "./assets/projects/curriculum.jpg",
     tags: [
@@ -41,6 +42,7 @@ export const myProjects = [
       "More to come as I update stuffs :)",
     ],
     href: "https://github.com/xSolstice1/JWPortfoliov2",
+    livedemo: "https://xsolstice1.github.io/JWPortfoliov2/",
     logo: "",
     img: "./assets/projects/portfolio.png",
     tags: [
@@ -76,6 +78,7 @@ export const myProjects = [
       "— all in one place.",
     ],
     href: "https://github.com/xSolstice1/lc-diary",
+    livedemo: "https://lc-diary.vercel.app/",
     logo: "",
     img: "./assets/projects/lcdiary.png",
     tags: [

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ProjectDetails from "./ProjectDetails";
 
-const Project = ({ title, description, subDescription, href, img, tags, setPreview }) => {
+const Project = ({ title, description, subDescription, href, livedemo, img, tags, setPreview }) => {
   const [isHidden, setIsHidden] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -42,6 +42,7 @@ const Project = ({ title, description, subDescription, href, img, tags, setPrevi
           img={img}
           tags={tags}
           href={href}
+          livedemo={livedemo}
           closeModal={() => setIsHidden(false)}
         />
       )}
