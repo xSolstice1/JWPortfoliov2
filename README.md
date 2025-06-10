@@ -32,4 +32,4 @@ This is the source code for my personal portfolio website. It showcases my profe
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/your-portfolio-website.git
+   git clone https://github.com/xSolstice1/JWPortfoliov2/
